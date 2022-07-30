@@ -1,4 +1,3 @@
-//falta consertar a soma
 console.log("Calculadora básica");
 console.log("");
 console.log("Menu");
