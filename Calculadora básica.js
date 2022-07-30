@@ -1,18 +1,27 @@
-console.log("Calculadora básica");
-console.log("");
-console.log("Menu");
-console.log("");
-console.log("1- Somar");
-console.log("2- Subtração");
-console.log("3- Divisão");
-console.log("4- Multiplicacão");
-console.log("0- Sair do programa");
+function menu(){
+  console.log("Calculadora básica");
+  console.log("");
+  console.log("Menu");
+  console.log("");
+  console.log("1- Somar");
+  console.log("2- Subtração");
+  console.log("3- Divisão");
+  console.log("4- Multiplicacão");
+  console.log("0- Sair do programa");
+}
+
+function validar(numero){
+  while(numero<0 || numero>4){
+    console.log("Número inválido");
+    numero= prompt("Digite um número: ");
+  }
+  return numero;
+}
+
+menu();
 let escolha;
 escolha= prompt("Escolha uma opção acima: ");
-while(escolha<0 || escolha>4){
-    console.log("Opção inválida");
-    escolha= prompt("Escolha uma opção acima: ");
-}
+escolha= validar(escolha);
 if(escolha==1){
     let numero1, numero2;
     numero1= prompt("Digite o primeiro número: ");
