@@ -1,4 +1,4 @@
-const soma = (number1,number2) => { //arrow function
+const divisao = (number1,number2) => { //arrow function
     let divisao = number1 / number2
     return divisao
 }
