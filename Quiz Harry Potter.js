@@ -104,7 +104,6 @@ function menu(){
       pergunta3();
       pergunta4();
       pergunta5();
-      alert("Fim do programa! @Developer Valmir Júnior");
       break;
   }
-alert("Fim do programa! @Developer Valmir Júnior");
+alert("Fim do programa! @Developer Valmir Junior");
